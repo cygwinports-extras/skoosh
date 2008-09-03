@@ -1,0 +1,11 @@
+--- origsrc/skoosh-2.5.0/skoosh.schemas	2004-03-18 05:05:39.000000000 -0600
++++ src/skoosh-2.5.0/skoosh.schemas	2008-09-03 15:43:27.489102400 -0500
+@@ -34,7 +34,7 @@
+       <applyto>/apps/skoosh/img_id</applyto>
+       <owner>skoosh</owner>
+       <type>int</type>
+-      <default>2</default>
++      <default>1</default>
+       <locale name="C">
+         <short>Image selection</short>
+         <long>

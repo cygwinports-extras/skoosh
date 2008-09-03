@@ -1,0 +1,92 @@
+skoosh
+-------------------------------------------
+skoosh is a very simple sliding tile puzzle for the GNOME Desktop.
+The object of the game is to rearrange a set of shuffled tiles until a
+picture or pattern is revealed.  A detailed user manual is available
+via the program's Help menu.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  GConf2-2.22.0-1
+  gdk-pixbuf2-2.12.11-1
+  glib2-2.16.5-1
+  gtk2-x11-2.12.11-1
+  libgnome2-2.22.0-1
+  libgnomeui2-2.22.1-1
+  libintl8-0.15-1
+
+Build requirements:
+  autoconf2.5-2.61-1
+  automake1.4-1.4p6-4
+  binutils-20080624-2
+  cygport-0.4.0-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  gnome-common-2.20.0-2
+  make-3.81-1
+  pkg-config-0.23a-2
+  sed-4.1.5-2
+
+Canonical homepage:
+  http://homepages.ihug.co.nz/~trmusson/programs.html
+
+Canonical download:
+  http://homepages.ihug.co.nz/~trmusson/stuff/
+
+-------------------------------------------
+
+Build instructions:
+  unpack skoosh-2.5.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./skoosh-2.5.0-X.cygport all
+
+This will create:
+  /usr/src/skoosh-2.5.0-X-src.tar.bz2
+  /usr/src/skoosh-2.5.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/gconf/schemas/skoosh.schemas
+  /etc/postinstall/skoosh.sh
+  /etc/preremove/skoosh.sh
+  /etc/sound/events/skoosh.soundlist
+  /usr/bin/skoosh.exe
+  /usr/share/applications/skoosh.desktop
+  /usr/share/doc/skoosh-2.5.0/AUTHORS
+  /usr/share/doc/skoosh-2.5.0/ChangeLog
+  /usr/share/doc/skoosh-2.5.0/COPYING
+  /usr/share/doc/skoosh-2.5.0/INSTALL
+  /usr/share/doc/skoosh-2.5.0/README
+  /usr/share/gnome/help/skoosh/C/figures/appearance.png
+  /usr/share/gnome/help/skoosh/C/figures/keyboard.png
+  /usr/share/gnome/help/skoosh/C/figures/mainwindow.png
+  /usr/share/gnome/help/skoosh/C/legal.xml
+  /usr/share/gnome/help/skoosh/C/skoosh.xml
+  /usr/share/locale/da/LC_MESSAGES/skoosh.mo
+  /usr/share/locale/fr/LC_MESSAGES/skoosh.mo
+  /usr/share/man/man6/skoosh.6.gz
+  /usr/share/omf/skoosh/skoosh-C.omf
+  /usr/share/pixmaps/skoosh.png
+  /usr/share/pixmaps/skoosh/default.jpg
+  /usr/share/pixmaps/skoosh/griffs-summer-breeze.jpg
+  /usr/share/pixmaps/skoosh/overlayblack.png
+  /usr/share/pixmaps/skoosh/overlayempty.png
+  /usr/share/pixmaps/skoosh/overlaywhite.png
+
+------------------
+
+Port Notes:
+
+----- version 2.5.0-2 -----
+Rebuilt.
+
+----- version 2.5.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

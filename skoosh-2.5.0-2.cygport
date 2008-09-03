@@ -1,0 +1,6 @@
+inherit gnome2
+
+DESCRIPTION="GNOME Fifteen puzzle"
+HOMEPAGE="http://homepages.ihug.co.nz/~trmusson/programs.html"
+SRC_URI="http://homepages.ihug.co.nz/~trmusson/stuff/${P}.tar.gz"
+PATCH_URI="2.5.0-default-image.patch"
